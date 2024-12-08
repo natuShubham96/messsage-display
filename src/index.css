@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root {
+    @apply h-full;
+  }
+}
+
+.form-containers {
+  @apply flex gap-2 items-center;
+}
+
+.form-inputs {
+  @apply border border-[gray] p-1;
+}

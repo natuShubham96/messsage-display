@@ -1,0 +1,1 @@
+export type Message = Record<"date" | "message", string>;
